@@ -4,7 +4,7 @@
 
 # Overview
 
-This five-day course, aimed at researchers and core facility staff, focuses on enhancing participants’ skills in image analysis for Correlative Light and Electron Microscopy (CLEM) using open-source software and publicly available datasets. This course is run in collaboration with [the Collaborative Computational Project (CCP) for Volume Electron Microscopy (CCP-volumeEM)](https://www.ccp-volumeem.ac.uk/)
+This five-day course, aimed at researchers and core facility staff, focuses on enhancing participants’ skills in image analysis for Correlative Light and Electron Microscopy (CLEM) using open-source software and publicly available datasets. This course is run in collaboration with the Collaborative Computational Project (CCP) for Volume Electron Microscopy [(CCP-volumeEM)](https://www.ccp-volumeem.ac.uk/)
 
 # Registration
 
