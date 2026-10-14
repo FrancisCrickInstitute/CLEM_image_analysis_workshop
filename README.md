@@ -386,5 +386,5 @@ The workshop will take place in the Francis Crick Institute, London, UK.
 
 
 <p align="center">
-	<img width="10%" src="./Resources/CRICK_Logo.png" alt="Crick Logo">
+	<img width="10%" src="./Resources/CRICK_Logo.png" alt="Crick Logo”> <img width="10%" src="./Resources/ccp_volumeEM_logo.png" alt=“CCP-vEM Logo">
 </p>
