@@ -160,6 +160,7 @@ Registration to this workshop has now closed.
 				<li>Mariam Demir and Martin Jones</li>
 				<ul>
 					<li>Manual segmentation using Labkit</li>
+					<li>Segmenting objects using machine learning algorithms in ilastik</li>
 				</ul>
 				</ul>
 			</td>
@@ -191,16 +192,16 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>15:30 - 17:00</td>
 			<td>Session 8</td>
-			<td><p>Building an analysis pipeline for electron microscopy data</p></td>
+			<td><p>Data reuse</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Cameron Shand and Martin Jones</li>
+				<li>Matthew Hartley</li>
 				<ul>
-					<li>Segmenting objects using machine learning algorithms in ilastik</li>
-					<li>Other machine learning approaches and AI OnDemand</li>
+					<li>Image repositories</li>
+					<li>Using Next Generation File Formats (NGFFs)</li>
 				</ul>
 				</ul>
 			</td>
@@ -211,7 +212,7 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>09:30 - 11:00</td>
 			<td>Session 9</td>
-			<td><p>Reconstructing image volumes</p></td>
+			<td><p>Designing scalable pipelines</p></td>
 		</tr>
 		<tr>
 			<td></td>
@@ -219,8 +220,8 @@ Registration to this workshop has now closed.
 				<ul>
 				<li>Cameron Shand and Martin Jones</li>
 				<ul>
-					<li>Opening and cropping images</li>
-					<li>Visualising image volumes</li>
+					<li>Implementing machine learning segmentation with AI OnDemand</li>
+					<li>Introducing containers</li>
 				</ul>
 				</ul>
 			</td>
@@ -238,10 +239,10 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Mariam Demir and Martin Jones</li>
+				<li>Cameron Shand and Martin Jones</li>
 				<ul>
-					<li>Using Next Generation File Formats (NGFFs)</li>
-					<li>An introduction to containers</li>
+					<li>Opening and cropping images</li>
+					<li>Visualising image volumes</li>	
 				</ul>
 				</ul>
 			</td>
@@ -298,9 +299,10 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Matthew Hartley</li>
+				<li>Candice Roufosse</li>
 				<ul>
-					<li>Image repositories</li>
+					<li>The science behind the course dataset</li>
+					<li>Alternative biological questions</li>
 				</ul>
 				</ul>
 			</td>
@@ -312,19 +314,7 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>11:15 - 12:45</td>
 			<td>Session 14</td>
-			<td><p>Data reuse</p></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td colspan=3>
-				<ul>
-				<li>Candice Roufosse</li>
-				<ul>
-					<li>The science behind the course dataset</li>
-					<li>Alternative biological questions</li>
-				</ul>
-				</ul>
-			</td>
+			<td><p>Group work</p></td>
 		</tr>
 		<tr>
 			<td>12:45 - 13:45</td>
