@@ -15,7 +15,7 @@ Registration to this workshop has now closed.
 # Instructors
 * [Cameron Shand, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/cameron-shand)
 * [Candice Roufosse, Imperial College London](https://profiles.imperial.ac.uk/c.roufosse)
-* [Daniel Krentzel, Universitat Zurich](https://www.biovisioncenter.uzh.ch/en/people/team.html)
+* [Daniel Krentzel, Universitat Zurich](https://www.mls.uzh.ch/en/research/uhlmann/groupmembers.html)
 * [Mariam Demir, STFC Scientific Computing](https://www.sc.stfc.ac.uk/team/)
 * [Martin Jones, Francis Crick Institute](https://www.crick.ac.uk/research/find-a-researcher/martin-jones)
 * [Matthew Hartley, EMBL EBI](https://www.ebi.ac.uk/people/person/matthew-hartley/)
