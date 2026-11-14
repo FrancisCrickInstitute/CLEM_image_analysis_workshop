@@ -181,7 +181,7 @@ Registration to this workshop has now closed.
 				<ul>
 				<li>Mariam Demir and Martin Jones</li>
 				<ul>
-					<li>Performing quantitative measurements</li>
+					<li>Deep Learning segmentation with Empanada</li>
 				</ul>
 				</ul>
 			</td>
@@ -240,10 +240,9 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Cameron Shand and Martin Jones</li>
+				<li>Marie-Charlotte Domart and Martin Jones</li>
 				<ul>
-					<li>Opening and cropping images</li>
-					<li>Visualising image volumes</li>	
+					<li>Reconstructing volume EM images from tiles and slices</li>	
 				</ul>
 				</ul>
 			</td>
@@ -283,7 +282,7 @@ Registration to this workshop has now closed.
 				<ul>
 				<li>Daniel Krentzel</li>
 				<ul>
-					<li>Image volume registration using CLEM-Reg</li>
+					<li>Manual and automatic multimodal registration</li>
 				</ul>
 				</ul>
 			</td>
