@@ -181,7 +181,7 @@ Registration to this workshop has now closed.
 				<ul>
 				<li>Mariam Demir and Martin Jones</li>
 				<ul>
-					<li>Performing quantitative measurements</li>
+					<li>Deep Learning segmentation with Empanada</li>
 				</ul>
 				</ul>
 			</td>
@@ -240,10 +240,9 @@ Registration to this workshop has now closed.
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Cameron Shand and Martin Jones</li>
+				<li>Marie-Charlotte Domart and Martin Jones</li>
 				<ul>
-					<li>Opening and cropping images</li>
-					<li>Visualising image volumes</li>	
+					<li>Reconstructing volume EM images from tiles and slices</li>	
 				</ul>
 				</ul>
 			</td>
@@ -255,15 +254,15 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>13:45 - 15:15</td>
 			<td>Session 11</td>
-			<td><p>Reconstructing image volumes</p></td>
+			<td><p>Correlating image volumes across modalities</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Mariam Demir and Martin Jones</li>
+				<li>Daniel Krentzel</li>
 				<ul>
-					<li>Stitching image volumes</li>
+					<li>Manual and automatic multimodal registration</li>
 				</ul>
 				</ul>
 			</td>
@@ -275,15 +274,15 @@ Registration to this workshop has now closed.
 		<tr>
 			<td>15:30 - 17:00</td>
 			<td>Session 12</td>
-			<td><p>Correlating image volumes across modalities</p></td>
+			<td><p>Managing volume CLEM datasets</p></td>
 		</tr>
 		<tr>
 			<td></td>
 			<td colspan=3>
 				<ul>
-				<li>Daniel Krentzel</li>
+				<li>Martin Jones</li>
 				<ul>
-					<li>Image volume registration using CLEM-Reg</li>
+					<li>Managing volume CLEM projects with MoBIE</li>
 				</ul>
 				</ul>
 			</td>
