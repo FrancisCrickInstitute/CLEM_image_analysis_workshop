@@ -35,3 +35,11 @@ tools/ome-zarr/
 ```
 
 To add a new tool, create a folder for it under `fiji/` (or `python/`, etc.), put a `README.md` in it using one of the existing pages as a template, and add it to the table above.
+
+## Acknowledgements
+
+These scripts are built on Fiji's [N5 / Zarr libraries](https://github.com/saalfeldlab/n5-zarr) and [BigDataViewer](https://imagej.net/plugins/bdv/). The BigDataViewer box selection is the same tool used by [MoBIE's *Select Box*](https://mobie.github.io/tools/select_box.html). Please cite these projects if you use the scripts in your work.
+
+## AI use
+
+The first drafts of both scripts and of these pages were written with generative AI (Anthropic's Claude, model Claude Opus 5.5), following the [CCP-volumeEM guidance on AI use](https://ccp-volume-em.github.io/guide/software/#ai-use). The workshop instructors are responsible for them. Until a tool is marked **Tested**, it has not been reviewed and tested by a person against the checks in [TESTING.md](./TESTING.md), so check its output before relying on it.
