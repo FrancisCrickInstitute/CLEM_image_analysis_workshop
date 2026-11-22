@@ -12,6 +12,7 @@ Opens a low-resolution level of a remote OME-Zarr image. You draw a box on it, a
 3. The macro scales the box up to full-resolution voxel coordinates.
 4. It calls Fiji's N5 importer (`File > Import > HDF5/N5/Zarr/OME-NGFF ...`) with `min=`/`max=` crop options, so only the chunks inside the box are downloaded.
 5. It saves the result as a TIFF. If the importer didn't set a calibration, the macro sets it from the overview.
+6. Beside the TIFF it writes `<name>.provenance.json`, recording the parameters, crop box, voxel size, ImageJ version and date. (An ImageJ macro can't compute a checksum of itself, so unlike the BigDataViewer script it doesn't record one.)
 
 ## Usage
 
@@ -26,6 +27,7 @@ Opens a low-resolution level of a remote OME-Zarr image. You draw a box on it, a
 | XY / Z downsampling | Scale factor between the two levels (`2^level` for a standard 2× pyramid) | `8`, `8` |
 | Array axes | Axis order of the arrays in Zarr order | `zyx (3D)` |
 | Output TIFF | Where to save | `~/crop.tif` |
+| Require physical calibration | Stop if the image has no voxel size, rather than saving in pixels | ticked |
 
 3. Follow the three prompts: draw the rectangle, choose the first z-slice, then choose the last z-slice.
 4. Check the size estimate and confirm.
@@ -39,6 +41,7 @@ The crop coordinates are printed to the Log window and saved in the image's *Inf
 - If many levels are anisotropic (e.g. no downsampling in z), you need to set the XY and Z factors yourself.
 - 4D/5D: all channels are exported, but only the current timepoint.
 - The whole crop must fit in Fiji's memory (`Edit > Options > Memory & Threads`).
+- It needs a screen to draw the box, so it can't run headless (e.g. on an HPC cluster).
 
 ## Macro recorder equivalent
 

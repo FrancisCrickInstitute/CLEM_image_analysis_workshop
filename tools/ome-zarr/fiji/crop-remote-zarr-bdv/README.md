@@ -13,6 +13,7 @@ The box tool is the same one used by [MoBIE's *Select Box*](https://mobie.github
 2. Opens every level as a lazy, cached, multi-threaded image and shows the pyramid in BDV. Data is only fetched for the parts you look at.
 3. Opens `BdvFunctions.selectBox(...)`. The box is defined in full-resolution voxel coordinates.
 4. When you click **OK**, it copies the region from level 0 into memory using several threads and saves it as a TIFF. The TIFF keeps the voxel size, unit and origin offset.
+5. Beside the TIFF it writes `<name>.provenance.json`, recording the parameters, source URL, crop box, voxel size, ImageJ version, date and the script's SHA-256 checksum, so you can tell later exactly where the crop came from.
 
 ## Usage
 
@@ -24,6 +25,7 @@ The box tool is the same one used by [MoBIE's *Select Box*](https://mobie.github
 | OME-Zarr URL | URL of the multiscale group |
 | Output TIFF | Where to save |
 | Download threads | Number of parallel chunk downloads (default 8) |
+| Require physical calibration | If ticked (the default), stop when the OME-Zarr has no voxel size or unit. Untick to save the crop in pixels instead |
 
 3. In BDV, navigate as usual and press `S` to adjust brightness and contrast. Resize the box with the sliders in the dialog, or by dragging its corners in the viewer.
 4. Click **OK**, check the size estimate, then confirm.
@@ -33,7 +35,8 @@ The box tool is the same one used by [MoBIE's *Select Box*](https://mobie.github
 - Non-spatial axes are fixed at index 0: only the first channel and timepoint are shown and exported.
 - The box is aligned to the image axes. Rotated boxes are not supported.
 - The whole crop must fit in Fiji's memory.
-- If a dataset has no `coordinateTransformations`, the scales are inferred from the array shapes and the unit is set to `pixel`.
+- If a dataset has no `coordinateTransformations` or no unit, the script stops, unless you untick *Require physical calibration*. The crop is then calibrated in pixels, with the scales between levels inferred from the array shapes.
+- It needs a screen to choose the box, so it can't run headless (e.g. on an HPC cluster).
 
 ## Possible extensions
 

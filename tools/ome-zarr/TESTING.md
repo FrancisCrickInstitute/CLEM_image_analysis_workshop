@@ -18,6 +18,9 @@ Add public OME-Zarr URLs used for testing (and the course datasets once availabl
 - [ ] Size estimate matches the saved file
 - [ ] Saved TIFF matches the same region opened directly with `File > Import > HDF5/N5/Zarr/OME-NGFF ...` (spot-check pixel values)
 - [ ] Voxel size and unit are correct (`Image > Properties...`)
+- [ ] `<name>.provenance.json` is written beside the TIFF, opens as valid JSON, and its box, voxel size and parameters match the run
+- [ ] Output path containing spaces (and, on Windows, backslashes) still gives valid JSON
+- [ ] Dataset with no voxel size: stops with a clear message when *Require physical calibration* is ticked, and saves in pixels when it is not
 - [ ] Edge case: a box touching the far edge of the volume
 - [ ] Edge case: Cancel at each step exits cleanly
 
