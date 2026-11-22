@@ -30,6 +30,7 @@ import net.imglib2.view.Views
 import net.imglib2.util.Intervals
 import net.imglib2.util.Util
 import net.imglib2.loops.LoopBuilder
+import java.util.function.BiConsumer
 import net.imglib2.img.planar.PlanarImgFactory
 import net.imglib2.img.display.imagej.ImageJFunctions
 import ij.IJ
@@ -130,7 +131,7 @@ if (!IJ.showMessageWithCancel("Export", String.format("Download ~%.0f MB and sav
 IJ.showStatus("Downloading region...")
 def crop = Views.zeroMin(Views.interval(full, box))
 def out = new PlanarImgFactory(type.createVariable()).create(crop)
-LoopBuilder.setImages(crop, out).multiThreaded().forEachPixel({ a, b -> b.set(a) } as LoopBuilder.TwoImageAction)
+LoopBuilder.setImages(crop, out).multiThreaded().forEachPixel({ a, b -> b.set(a) } as BiConsumer)
 
 def imp = ImageJFunctions.wrap(out, outFile.getName().replaceAll('\\.tiff?$', ''))
 imp.setDimensions(1, (int) out.dimension(2), 1)
