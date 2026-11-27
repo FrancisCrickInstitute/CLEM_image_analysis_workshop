@@ -208,6 +208,10 @@ Registration to this workshop has now closed.
 			</td>
 		</tr>
 		<tr>
+			<td>17:00 - onwards</td>
+			<td colspan=2>Drinks and nibbles - Drake and Morgan (6 Pancras Square, London, N1C 4AG)</td>
+		</tr>
+		<tr>
 			<th colspan=3>Wednesday, December 2nd 2026</th>
 		</tr>
 		<tr>
